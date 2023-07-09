@@ -120,14 +120,14 @@ builder.Services.AddAuthentication("Bearer").AddJwtBearer( options => {
 builder.Services.AddDbContext<PublisherContext>(options => 
 {
     options
-    .UseNpgsql("Host=localhost;Database=Univali;Username=postgres;Password=Quintalmagico12#");
+    .UseNpgsql("Host=localhost;Database=Univali;Username=postgres;Password=123456");
 }
 );
 
 builder.Services.AddDbContext<CustomerContext>(options => 
 {
     options
-    .UseNpgsql("Host=localhost;Database=Univali;Username=postgres;Password=Quintalmagico12#");
+    .UseNpgsql("Host=localhost;Database=Univali;Username=postgres;Password=123456");
 }
 );
 
